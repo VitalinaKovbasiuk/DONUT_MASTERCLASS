@@ -1,0 +1,85 @@
+:root {
+    --main-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* text colors */
+    --accent-cl: #ff6c00;
+    --main-txt-cl: #555555;
+    --secondary-txt-cl: #ffffff;
+
+    /* background colors */
+    --main-bg-cl: #ffffff;
+    --secondary-bg-cl: #f7f7f7;
+    --dark-bg-cl: #191c26;
+
+    /* grid items */
+    --items: 1;
+    --indent: 30px;
+
+    /* animations */
+    --slow-anim: 700ms ease;
+    --fast-anim: 400ms ease-in-out;
+}
+
+/* Плавниий скролінг до секції */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+
+    color: var(--main-txt-cl);
+
+    /* background-image: url(../images/stock.jpg); */
+    /* background-size: 300px 300px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.no-scroll {
+    overflow: hidden;
+  }
+  
+.container {
+    /* outline: 1px solid red; */
+  
+    width: 1200px;
+  
+    padding-left: 15px;
+    padding-right: 15px;
+  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
